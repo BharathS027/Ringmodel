@@ -68,6 +68,26 @@ body {
     position: relative;
 }
 
+.logo-container {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mia-logo {
+    width: 120px;
+    height: auto;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.mia-logo:hover {
+    opacity: 1;
+}
+
 .selectors {
     position: absolute;
     top: 2rem;
