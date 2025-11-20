@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luxury Jewelry Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.163.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.163.0/examples/jsm/",
+            "gsap": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/+esm"
+        }
+    }
+    </script>
+</head>
+<body>
+
+    <header class="hero">
+        <h1 class="title">Luxury Gold Ring</h1>
+        <p class="subtitle">Interactive 3D Jewelry Viewer</p>
+        <div class="cta-buttons">
+            <button class="cta-button buy-now">Buy Now</button>
+            <button class="cta-button customize">Customize</button>
+        </div>
+    </header>
+
+    <section class="viewer-section">
+        <div id="viewer-container">
+            <!-- Original ring model display -->
+        </div>
+        <div class="selectors">
+            <!-- Color selectors removed -->
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="branding">
+            <h3>Luxury Jewelry</h3>
+            <p>Premium 3D Interactive Experience</p>
+        </div>
+    </footer>
+
+    <!-- Three.js Viewer -->
+    <script type="module" src="viewer.js"></script>
+
+</body>
+</html>
